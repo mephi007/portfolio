@@ -1,0 +1,96 @@
+html { 
+   background: url(bga.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+}
+body{
+width:50%;
+  height:20%;
+  background-color: rgba(0,0,0,0.7);
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight: 600;
+font-size: 174%;
+color: white;
+text-align: center;
+margin: 23%;
+box-shadow: 2px 2px 8px rgba(0, 0,0.5 , 0.2);
+  }
+
+
+.button{
+  display: inline;
+}
+#portfolio{
+  text-decoration: none;
+
+border: solid 2px yellow;
+
+border-radius: 50px;
+
+padding: 4px 17px;
+
+color: #e2ecf3;
+
+font-family: "proxima nova";
+
+font-weight: 200;
+
+font-size: 30px;
+
+text-align: center;
+
+-webkit-transtion-duration: 200ms;
+
+transtion-duration: 200ms;
+}
+
+#portfolio:hover{
+  background-color: #6b5757;
+  color:white;
+}
+.button_port{
+  text-align: left;
+
+padding: 32px;
+
+padding-top: -4%;
+}
+
+#home{
+  text-decoration: none;
+
+border: solid 2px yellow;
+
+border-radius: 50px;
+
+padding: 4px 17px;
+
+color: #e2ecf3;
+
+font-family: "proxima nova";
+
+font-weight: 200;
+
+font-size: 30px;
+
+text-align: center;
+
+-webkit-transtion-duration: 200ms;
+
+transtion-duration: 200ms;
+}
+
+#home:hover{
+  background-color: #6b5757;
+  color:white;
+}
+
+.button_home{
+  text-align: right;
+
+padding: 32px;
+
+margin-top: -15%;
+}
